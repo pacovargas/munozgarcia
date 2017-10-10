@@ -1,0 +1,355 @@
+body{
+  font-size: 13px;
+  line-height: 1.3
+}
+
+.slick-list, .slick-track{
+  height: 100%;
+}
+
+#undefined-sticky-wrapper, nav.navbar{
+  height: 104px !important;
+}
+
+.navbar-brand{
+  padding: 0 !important;
+}
+
+#logo-cabecera{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul.navbar-nav{
+  padding-top: 20px
+}
+
+.naranja{
+    color: #bb492e !important;
+}
+
+.negro{
+    color: black !important;
+}
+
+.negrita{
+    font-family: helvetica-bold, sans-serif;
+}
+
+.light{
+    font-family: helvetica-light, sans-serif;
+}
+
+.foto-despacho{
+  margin-top: 30px;
+}
+
+.nav > li > a{
+  padding: 15px 10px;
+}
+
+#enlaces-contacto a{
+  font-size: 12px;
+  padding-right: 15px
+}
+
+#enlaces-contacto a:last-child{
+  padding-right: 0;
+}
+
+.borde-bajo{
+  border-bottom: 1px rgba(135, 135, 135, 0.5) solid;
+}
+
+#enlaces-contacto{
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+
+#contacto-nombre{
+  font-size: 36px;
+}
+
+a.correo{
+  color: black;
+}
+
+a.correo:hover{
+  color: rgb(153, 153, 153);
+}
+
+#datos-empresa p{
+  margin-bottom: 0;
+  font-size: 13px
+}
+
+#datos-empresa,
+.datos-correos{
+  padding: 20px 50px 25px 50px;
+}
+
+#imagen-tildes{
+  padding-top: 25px;
+}
+
+.datos-correos p{
+  margin-bottom: 0 !important;
+  font-size: 12.58px;
+  line-height: 1.2;
+}
+
+p.colegiado{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: url(../images/mano.png) no-repeat 53% 70%
+}
+
+p.sin-colegiado{
+  padding-top: 15px;
+}
+
+#otros-servicios{
+  padding-bottom: 200px
+}
+
+p.titulo-footer{
+  font-size: 16px;
+}
+
+.borde-bajo-naranja{
+  border-bottom: 1px solid #bb492e;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#footer p{
+  line-height: 1.1;
+  margin-right: 16px;
+}
+
+.enlaces-footer a{
+  margin-right: 16px;
+}
+
+
+.enlaces-footer a:last-child{
+  margin-right: 0;
+}
+
+.sgs{
+ padding-top: 127px; 
+}
+
+section#home{
+  position: relative;
+  z-index: 10000;
+}
+
+.tu-comunidad{
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.solicitud-presupuesto{
+  margin: 15px 0px;
+}
+
+.solicitud-presupuesto-footer{
+  display: none;
+}
+
+@media (min-width: 1920px) and (min-height: 975px){
+  .footer-flotante{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+  }
+
+  .foto-area-fiscal{
+    margin-top: 180px;
+  }
+
+  .foto-area-laboral{
+    margin-top: 180px;
+  }
+
+  #otros-servicios{
+    padding-bottom: 700px
+  }
+
+  .solicitud-presupuesto{
+    display: none;
+  }
+
+  .solicitud-presupuesto-footer{
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: 387px;
+  }
+}
+
+div.modal-header p{
+  color: #bb492e;
+  font-family: helvetica-bold;
+  font-size: 24px;
+}
+
+div.modal-dialog{
+  width: 50%
+}
+
+div.modal-body{
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+div.modal-body p{
+  text-align: justify;
+}
+
+div.modal-body p.titulo-modal{
+  font-family: helvetica-bold;
+  color: #bb492e;
+  text-transform: uppercase;
+}
+
+div.scroll-up{
+  display: none !important;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .navbar-custom .navbar-nav > li > a{
+    font-size: 14px;
+    padding: 15px 7px;
+  }
+
+  p.colegiado{
+    background-position: 80% 70%
+  }
+
+  div.modal-dialog{
+    width: 70%
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  a.navbar-brand{
+    width: auto !important;
+  }
+  
+  img#logo-cabecera{
+    width: 180px
+  }
+  
+  .navbar-custom .navbar-nav > li > a{
+    font-size: 12px;
+    padding: 7px 5px;
+  }
+  
+  .tu-comunidad{
+    top: 5px;
+    right: 10px;
+  }
+  
+  .tu-comunidad img{
+    width: 95px;
+  }
+
+  #datos-empresa,
+  .datos-correos{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  #imagen-tildes{
+    padding-top: 60px;
+  }
+
+  p.colegiado{
+    background-position: 95% 70%
+  }
+
+  .sgs{
+    padding-top: 20px;
+    text-align: right;
+  }
+
+  div.modal-dialog{
+    width: 80%
+  }
+}
+
+@media (max-width: 767px){
+  img#logo-cabecera{
+    width: 230px;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+
+  #custom-collapse{
+    background: white;
+  }
+
+  #undefined-sticky-wrapper, nav.navbar{
+    height: 80px !important;
+  }
+
+  section{
+    padding-bottom: 0 !important;
+  }
+
+  .tu-comunidad{
+    position:  static;
+    margin-bottom: 15px;
+  }
+  
+  #fincas h2{
+    margin-bottom: 10px;
+  }
+
+  #datos-empresa,
+  .datos-correos{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #contacto-nombre{
+    font-size: 25px;
+  }
+
+  p.colegiado,
+  p.sin-colegiado{
+    background: none;
+    padding: 0;
+  }
+  
+  .datos-correos{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .persona-contacto{
+    margin-bottom: 25px
+  }
+  
+  .primer-grupo-contacto{
+    padding-top: 25px;
+  }
+
+  .mapa-footer{
+    margin-top: 20px;
+  }
+  
+  .sgs{
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  div.modal-dialog{
+    width: 90%;
+    margin: 10px auto 0 auto;
+  }
+}
