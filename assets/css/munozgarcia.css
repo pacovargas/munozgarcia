@@ -45,8 +45,9 @@ ul.navbar-nav{
 }
 
 .nav > li > a{
-  padding: 15px 10px;
+  padding: 30px 6.5px;
 }
+
 
 #enlaces-contacto a{
   font-size: 12px;
@@ -159,7 +160,32 @@ section#home{
   display: none;
 }
 
-@media (min-width: 1920px) and (min-height: 975px){
+#footer > .container{
+  border-top: 1px solid #bb492e;
+}
+
+#footer .row > div{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#borde-footer{
+  background: url(../images/borde-footer.jpg) no-repeat 50%;
+  height: 20px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+#enlace-galeria,
+#enlace-solicitud-presupuesto{
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 10px; 
+}
+
+
+
+/*@media (min-width: 1920px) and (min-height: 975px){
   .footer-flotante{
     position: fixed;
     bottom: 0px;
@@ -188,7 +214,7 @@ section#home{
     top: 23px;
     right: 387px;
   }
-}
+}*/
 
 div.modal-header p{
   color: #bb492e;
@@ -219,11 +245,70 @@ div.scroll-up{
   display: none !important;
 }
 
+#nuestro-despacho{
+  padding-bottom: 150px;
+}
+
+#area-fiscal,
+#area-laboral{
+  padding-bottom: 350px;
+}
+
+#fincas,
+#contacto{
+  padding-bottom: 130px;
+}
+
+#otros-servicios{
+  padding-bottom: 500px;
+}
+
+.logo-sgs{
+  background: red;
+  position: absolute;
+  margin-top: 10px
+}
+
+h2{
+  padding-top: 45px
+}
+
+#galeria div.modal-dialog{
+  width: 1200px;
+}
+
+#galeria .modal-body{
+  height: 90vh;
+  overflow-x: hidden;
+}
+
+#galeria .modal-header{
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+p.colegiado a{
+  color: black;
+}
+
+p.colegiado a:hover{
+  color: #bb492e;
+}
+
+.direccion-footer{
+  margin-bottom: 5px;
+}
+
 
 @media (min-width: 992px) and (max-width: 1199px){
+  #galeria div.modal-dialog{
+    width: 992px;
+  }
+
   .navbar-custom .navbar-nav > li > a{
     font-size: 14px;
-    padding: 15px 7px;
+    padding: 15px 4.5px;
   }
 
   p.colegiado{
@@ -233,9 +318,32 @@ div.scroll-up{
   div.modal-dialog{
     width: 70%
   }
+
+  #footer,
+  #enlace-solicitud-presupuesto{
+    padding-top: 10px
+  }
+  
+  #borde-footer{
+    margin-bottom: 15px;
+  }
+  
+  .pfblock-line{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .datos-correos{
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  #galeria div.modal-dialog{
+    width: 768px;
+  }
+
   a.navbar-brand{
     width: auto !important;
   }
@@ -283,6 +391,10 @@ div.scroll-up{
 }
 
 @media (max-width: 767px){
+  #galeria div.modal-dialog{
+    width: 100%;
+  }
+
   img#logo-cabecera{
     width: 230px;
     padding-left: 20px;
@@ -351,5 +463,30 @@ div.scroll-up{
   div.modal-dialog{
     width: 90%;
     margin: 10px auto 0 auto;
+  }
+
+  .logo-sgs{
+    display: none;
+  }
+
+  h2{
+    padding-top: 0;
+  }
+
+  .contenido-footer{
+    display: none;
+  }
+
+  #otros-servicios .contenido-footer{
+    display: block;
+  }
+
+  .nav > li > a{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #galeria .modal-body{
+    height: 50vh;
   }
 }

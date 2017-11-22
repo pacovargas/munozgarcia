@@ -23,6 +23,20 @@ $(function(){
         pauseOnHover: false,
     });
 
+    $('#galeria-imagenes').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows: true,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        initialSlide: 1,
+    });
+
     $(window).scroll(function(event) {
         toggleSolicitud();
     });
@@ -46,5 +60,11 @@ $(function(){
         if(ancho < 768){
             $("button.navbar-toggle").trigger("click");
         }
+    });
+
+    $("#enlace-galeria > a").click(function(event) {
+        event.preventDefault();
+        $("#galeria").modal('show');
+        $('#galeria-imagenes').slick('slickGoTo', 0, false);
     });
 });

@@ -733,6 +733,22 @@ textarea.form-control {
 		text-align: center;
 	}
 
+	#intro1{
+		background: url(../images/slide/movil_intro_0001.jpg) 50% 50%;
+	}
+
+	#intro2{
+		background: url(../images/slide/movil_intro_0002.jpg) 50% 50%;
+	}
+
+	#intro3{
+		background: url(../images/slide/movil_intro_0003.jpg) 50% 50%;
+	}
+
+	#intro4{
+		background: url(../images/slide/movil_intro_0004.jpg) 50% 50%;
+	}
+
 }
 
 @media (max-width: 480px) {

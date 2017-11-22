@@ -37,7 +37,7 @@
 
 	<!-- Home start -->
 
-	<?php include('includes/home.html'); ?>
+	<?php include('includes/home.php'); ?>
 
 	<!-- Home end -->
 
@@ -61,12 +61,12 @@
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a href="#nuestro-despacho"><span class="naranja negrita">Nuestro</span><span class="negro light">Despacho</span></a></li>
-                        <li><a href="#area-fiscal">Area Fiscal</a></li>
-                        <li><a href="#area-laboral">Area Laboral</a></li>
-                        <li id="opcion-fincas"><a href="#fincas">Administración de fincas</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="#otros-servicios">Otros Servicios</a></li>
+                        <li><a href="#nuestro-despacho"><span class="negro light">Nuestro</span><span class="naranja negrita">Despacho</span></a></li>
+                        <li><a href="#area-fiscal"><span class="negro light">Area</span> <span class="naranja negrita">Fiscal</span></a></li>
+                        <li><a href="#area-laboral"><span class="negro light">Area</span> <span class="naranja negrita">Laboral</span></a></li>
+                        <li id="opcion-fincas"><a href="#fincas"><span class="negro light">Administración de</span> <span class="naranja negrita">Fincas</span></a></li>
+                        <li><a href="#contacto"><span class="naranja">Contacto</span></a></li>
+                        <li><a href="#otros-servicios"><span class="naranja">Otros Servicios</span></a></li>
 					</ul>
 				</div>
 
@@ -79,37 +79,38 @@
 	<!-- Navigation end -->
 
     <!--Nuestro despacho start -->
-	<?php include("includes/nuestro-despacho.html"); ?>
+	<?php include("includes/nuestro-despacho.php"); ?>
 	<!-- Nuestro despacho end -->
 
     <!-- Area Fiscal -->
-    <?php include("includes/area-fiscal.html"); ?>
+    <?php include("includes/area-fiscal.php"); ?>
     <!-- Area Fiscal end -->
 
     <!-- Area laboral -->
-    <?php include("includes/area-laboral.html"); ?>
+    <?php include("includes/area-laboral.php"); ?>
     <!-- Area laboral end -->
 
     <!-- fincas -->
-    <?php include("includes/fincas.html"); ?>
+    <?php include("includes/fincas.php"); ?>
     <!-- fincas end -->
 
     <!-- contacto -->
-    <?php include("includes/contacto.html"); ?>
+    <?php include("includes/contacto.php"); ?>
     <!-- contacto end -->
 
     <!-- Otros servicios -->
-    <?php include("includes/otros-servicios.html"); ?>
+    <?php include("includes/otros-servicios.php"); ?>
     <!-- Otros servicios end -->
     
 	
 
 	<!-- Footer start -->
-    <?php include("includes/footer.html"); ?>
+    
 	<!-- Footer end -->
 
-    <?php include("includes/aviso-legal.html"); ?>
-    <?php include("includes/politica-privacidad.html"); ?>
+    <?php include("includes/aviso-legal.php"); ?>
+    <?php include("includes/politica-privacidad.php"); ?>
+    <?php include("includes/galeria.html"); ?>
 
 	<!-- Scroll to top -->
 
